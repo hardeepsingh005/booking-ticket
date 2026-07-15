@@ -1,12 +1,11 @@
+import BannerSection from "./Component/Home-component/BannerSection";
 
 
 export default function Home() {
   return (
   <>
-  <h1>
-    hello world HS 
-  </h1>
-
+    <BannerSection />
+  
   </>
   );
 }
