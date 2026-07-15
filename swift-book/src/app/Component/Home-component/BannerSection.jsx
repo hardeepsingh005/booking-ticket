@@ -10,7 +10,7 @@ export default function BannerSection() {
         <h1 className="text-9xl text-white text-center">BURNING</h1>
     </div>
 
-
+  
 </section>
  
   )
