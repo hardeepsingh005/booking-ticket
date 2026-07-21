@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Header() {
@@ -50,28 +51,31 @@ export default function Header() {
         </div>
         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div className="flex shrink-0 items-center">
-            <img
+            <Link href="/"> 
+              <img
               src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
               alt="Your Company"
               className="h-8 w-auto"
             />
+            </Link>
+          
           </div>
           <div className="hidden sm:ml-6 sm:block">
             <div className="flex space-x-4">
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" */}
-              <a
-                href="#"
+              <Link
+                href="/"
                 aria-current="page"
                 className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
               >
-                Dashboard
-              </a>
-              <a
-                href="#"
+                Home
+              </Link>
+              <Link
+                href="/about-us"
                 className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
               >
-                Team
-              </a>
+                About
+              </Link>
               <a
                 href="#"
                 className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
