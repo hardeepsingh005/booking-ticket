@@ -12,7 +12,7 @@ export default function BannerSection() {
   };
 
   return (
-
+   
 <>
    
 {/* <!-- Modal Overlay --> */}
